@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cuprum&family=Prata&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
+    <title>Liquid</title>
+</head>
+<body>
+    <div class="menu-block">
+        <div class="menu-block-inside">
+            <div class="menu-block-inside-logo">
+                <img class="menu-block-inside-logo" src="../static/img/liquid logo.png" alt="liquid">
+            </div> 
+            <div class="menu-block-inside-bar">
+                <ul>
+                    <li><a href="{% url 'main' %}">Главная</a></li>
+                    <li><a href="{% url 'shoppers' %}">Шопперы</a></li>
+                    <li><a href="">Костюмы</a></li>
+                    <li><a href="">Косынки</a></li>
+                    <li><a href="">О нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="product-page-card">
+        <div class="product-page-card-image">
+            <img src="../static/img/shopper page 1.png" alt="shopper">
+        </div>
+        <div class="product-page-card-text">
+            <p class="product-page-card-text-name">Косынка из экокожи</p>
+            <p class="product-page-card-text-p">3500₽</p>
+            <p class="product-page-card-text-p">Вместительный и компактный двусторонний шоппер из экокожи</p>
+            <div class="product-card-colors">
+                <div class="product-card-colors-inside">
+                    <a href="" class="color-width color-chosen product-card-color olive"></a>
+                    <a href="" class="color-width product-card-color pale-pink"></a>
+            </div>
+        </div>
+        <a class="product-button-buy-href" href="">
+            <div class="product-button-buy">
+                <p>Добавить</p>
+                <img src="../static/img/cart.png" alt="" class="product-button-buy-cart">
+            </div>
+        </a>
+    </div>
+</body>
+</html>

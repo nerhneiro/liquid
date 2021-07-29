@@ -1,0 +1,221 @@
+.menu-block {
+    width: 100%;
+    min-height: 112px;
+    background-color: #BBC396;
+}
+.menu-block-inside {
+    display: flex;
+    padding-top: 24px;
+    margin-left: 64px;
+}
+.menu-block-inside-logo {
+    flex-direction: row;
+    margin-right: 50px;
+}
+.menu-block-inside-bar {
+    flex-direction: row;
+}
+.menu-block-inside-bar ul {
+    list-style-type: none;
+}
+.menu-block-inside-bar li {
+    display: inline-block;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 24px;
+    min-width: 118px;
+    line-height: 30.1px;
+}
+.menu-block-inside-bar li a {
+    text-decoration: none;
+    color: #FDFEFA;
+}
+.menu-block-inside-bar li a:hover {
+    text-decoration: underline;
+}
+
+/* PRODUCT CARDS */
+.catalog {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start; */
+    margin: 64px 0px 0px 64px;
+}
+.product-card-href {
+    text-decoration: none;
+}
+.product-card {
+    display: inline-block;
+    margin-right: 115px;
+    margin-bottom: 64px;
+    height: 477px;
+    width: 214px;
+    background-color: #E7C7A1;
+    border-radius: 5px 5px 0px 0px;
+}
+.product-card:hover {
+    background-color: #DCB991;
+}
+.product-card img {
+    border-radius: 0px;
+    margin: 19px 19px 20px 19px;
+}
+.product-card p {
+    margin-left: 19px;
+    margin-right: 19px;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 24px;
+    color: #000000;
+    margin-top: -10px;
+    line-height: 30.1px;
+}
+.product-card-colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.product-card-colors-p {
+    margin: 0px 0px 0px 0px;
+}
+.product-card-colors-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.product-card-color {
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+    margin-top: -5px;
+    border-radius: 13px;
+}
+.olive {
+    background-color: #AB9B7A;
+}
+.pale-pink {
+    background-color: #D1A19F;
+}
+
+/* MAIN */
+.main-block {
+    width: 100%;
+    height: 50vh;
+    margin-top: 64px;
+    background: 
+    url("../img/liquid main.JPEG") center no-repeat;
+    -webkit-background-composize: cover;
+
+    background-size: cover;
+}
+.main-block p {
+    font-family: 'Cuprum', sans-serif;
+    text-align: center;
+    padding-top: 22vh;
+    font-size: 65px;
+    min-width: 118px;
+    color: #FDFEFA;
+    line-height: 30.1px;
+}
+/* FOOTER */
+.footer {
+    width: 100%;
+    min-height: 69px;
+    background-color: #BBC396;
+    margin-top: 50px;
+}
+.footer-inside {
+    display: flex;
+}
+.footer-inside p {
+    flex-direction: row;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 24px;
+    min-width: 118px;
+    color: #FDFEFA;
+    line-height: 30.1px;
+    margin-left: 64px;
+}
+.footer-inside-socials {
+    flex-direction: row;
+    margin-left: 102px;
+    margin-top: 10px;
+}
+.footer-inside-socials img {
+    margin-right: 29px;
+}
+
+/* PRODUCT PAGE */
+.product-page-card {
+    width: 1290px;
+    height: 532px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(209, 161, 159, 0.23);
+    border-radius: 5px;
+    margin-top: 79px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-page-card img {
+    height: 470px;
+    margin-top: 29px;
+    margin-left: 79px;
+    margin-right: 80px;
+}
+.product-page-card-text {
+    margin-right: 71px;
+    /* height: 100%; */
+    /* background-color: blueviolet; */
+}
+.product-page-card-text-p  {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    line-height: 30.1px;
+}
+.product-page-card-text-name {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 35px;
+    color: #000000;
+    line-height: 30.1px;
+    font-size: 35px;
+}
+.color-width {
+    width: 52px;
+    height: 52px;
+    border-radius: 26px;
+}
+.color-chosen {
+    border: 1px solid black;
+}
+.product-button-buy-href {
+    text-decoration: none;
+    color: black;
+}
+.product-button-buy {
+    margin-top: 29px;
+    width: 242px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #BBC396;
+    border-radius: 10px;
+}
+.product-button-buy:hover {
+    background-color: #88925D;
+}
+.product-button-buy:active {
+    background-color: #A8B081;
+}
+.product-button-buy p {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 24px;
+    line-height: 30.1px;
+}
+.product-button-buy img {
+    width: 53px;
+    height: 46px;
+    margin: 0;
+    margin-top: 15px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
+    <title>Шопперы</title>
+</head>
+<body>
+    <div class="menu-block">
+        <div class="menu-block-inside">
+            <div class="menu-block-inside-logo">
+                <img class="menu-block-inside-logo" src="../static/img/liquid logo.png" alt="liquid">
+            </div> 
+            <div class="menu-block-inside-bar">
+                <ul>
+                    <li><a href="{% url 'main' %}">Главная</a></li>
+                    <li><a href="{% url 'shoppers' %}">Шопперы</a></li>
+                    <li><a href="">Костюмы</a></li>
+                    <li><a href="">Косынки</a></li>
+                    <li><a href="">О нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="catalog">
+       <a class="product-card-href" href="{% url 'product' %}"> <div class="product-card">
+            <img src="../static/img/shopper1.png" alt="shopper 1">
+            <p>Шоппер двусторонний</p>
+            <p>Оливка</p>
+            <p>3500₽</p>
+            <div class="product-card-colors">
+                <p class="product-card-colors-p">Цвета: </p>
+                <div class="product-card-colors-inside">
+                    <div class="product-card-color olive" ></div>
+                    <div class="product-card-color pale-pink"></div></div>
+            </div>
+        </div>
+    </a>
+        <a class="product-card-href" href="{% url 'product' %}"><div class="product-card">
+            <img src="../static/img/shopper2.png" alt="shopper 1">
+            <p>Шоппер двусторонний</p>
+            <p>Пыльная роза</p>
+            <p>3500₽</p>
+            <div class="product-card-colors">
+                <p class="product-card-colors-p">Цвета: </p>
+                <div class="product-card-colors-inside">
+                    <div class="product-card-color olive" ></div>
+                    <div class="product-card-color pale-pink"></div></div>
+            </div>
+        </div>
+    </a>
+    </div>
+
+    <div class="footer">
+        <div class="footer-inside">
+            <p>Сделайте заказ или оставьте отзыв</p>
+            <div class="footer-inside-socials">
+                <img class="footer-inside-socials-tg" src="../static/img/telegram image.png" alt="telegram">
+                <img class="footer-inside-socials-ig" src="../static/img/instagram image.png" alt="instagram">
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>

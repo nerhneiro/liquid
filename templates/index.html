@@ -1,0 +1,47 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cuprum&family=Prata&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
+    <title>Liquid</title>
+</head>
+<body>
+    <div class="menu-block">
+        <div class="menu-block-inside">
+            <div class="menu-block-inside-logo">
+                <img class="menu-block-inside-logo" src="../static/img/liquid logo.png" alt="liquid">
+            </div> 
+            <div class="menu-block-inside-bar">
+                <ul>
+                    <li><a href="{% url 'main' %}">Главная</a></li>
+                    <li><a href="{% url 'shoppers' %}">Шопперы</a></li>
+                    <li><a href="">Костюмы</a></li>
+                    <li><a href="">Косынки</a></li>
+                    <li><a href="">О нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-block">
+        <p>Liquid</p>
+    </div>
+    <div class="footer">
+        <div class="footer-inside">
+            <p>Сделайте заказ или оставьте отзыв</p>
+            <div class="footer-inside-socials">
+                <img class="footer-inside-socials-tg" src="../static/img/telegram image.png" alt="telegram">
+                <img class="footer-inside-socials-ig" src="../static/img/instagram image.png" alt="instagram">
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>
