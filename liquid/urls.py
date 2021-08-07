@@ -21,4 +21,5 @@ urlpatterns = [
     path('', mainapp.main, name='main'),
     path('shoppers/', mainapp.shoppers, name='shoppers'),
     path('product/', mainapp.product, name='product'),
+    path('cart/', mainapp.cart, name='cart')
 ]

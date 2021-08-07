@@ -5,6 +5,7 @@
 }
 .menu-block-inside {
     display: flex;
+    align-items: center;
     padding-top: 24px;
     margin-left: 64px;
 }
@@ -32,7 +33,10 @@
 .menu-block-inside-bar li a:hover {
     text-decoration: underline;
 }
-
+.menu-cart {
+    height: 30px;
+    width: 30px;
+}
 /* PRODUCT CARDS */
 .catalog {
     /* display: flex;
@@ -218,4 +222,47 @@
     height: 46px;
     margin: 0;
     margin-top: 15px;
+}
+
+/* CART */
+.cart-object {
+    height: 253px;
+    width: 543px;
+    background-color: rgba(209, 161, 159, 0.23);
+    border-radius: 5px;
+    margin-top: 64px;
+    margin-left: 64px;
+    display: inline-block;
+}
+
+.cart-object-header {
+    font-size: 26px;
+}
+.cart-object-p {
+    font-size: 24px;
+}
+.cart-object p {
+    font-family: 'Arsenal', sans-serif;
+    color: #000000;
+}
+.cart-object-left {
+    display: inline-block;
+    margin-left: 25px;
+}
+.cart-object-right {
+    display: inline-block;
+}
+.price-block {
+    width: 363px;
+    height: 95px;
+    background-color: #D7E0D7;
+    border-radius: 5px;
+    font-family: 'Arsenal', sans-serif;
+    color: #000000;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    margin-left: 64px;
 }
